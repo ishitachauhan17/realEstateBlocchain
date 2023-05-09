@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "m1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m3",
+						"type": "int256"
+					}
+				],
+				"name": "enrollStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m3",
+						"type": "int256"
+					}
+				],
+				"name": "mantainMembership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentdetails",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark3",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "per",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "reg_status",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"blockchain/employee.sol": "student_reg"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"blockchain/employee.sol": {
+			"keccak256": "0x2baae4d10f939335f8008f8baaad1ace4c6e3e1a8d2ba70a515af9da1d7a1a51",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://08d6cdcbf174ede9b9bcccfd47b55308ce7f471bae9114c703ef9ffe58f989ae",
+				"dweb:/ipfs/QmeGSx6aJcw7zK9FmRPKqbJ99hYZTj4biWFiQqTqTRYwSP"
+			]
+		}
+	},
+	"version": 1
+}

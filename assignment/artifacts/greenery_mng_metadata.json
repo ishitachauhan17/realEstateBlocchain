@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment.sol/greenery_management.sol": "greenery_mng"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment.sol/greenery_management.sol": {
+			"keccak256": "0xa972bfe3a2950cddaa53a838a4629284bad32ed6434fc517b9d3169c531075f4",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://4bcc36fa101dc9d9e7363299567fe5ba7d6f85c4f0aba48edb287fcc50ada8a4",
+				"dweb:/ipfs/QmSDTmsfiN2KuFHR3Eif48hqNUYfeXuC7W3SS5mgNkrSKe"
+			]
+		}
+	},
+	"version": 1
+}
